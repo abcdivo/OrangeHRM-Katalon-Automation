@@ -19,3 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('TC-Dashboard/TC4 - Navigate To Admin Page'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementVisible(
+	findTestObject('page_admin/table_user_rows'),
+	FailureHandling.STOP_ON_FAILURE
+)
+
+WebUI.closeBrowser()
