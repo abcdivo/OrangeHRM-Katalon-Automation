@@ -1,0 +1,312 @@
+2026-10-30 18:03:01.439 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\istna nisa\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-10-30 18:03:01.443 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\istna nisa\git\OrangeHRM-Katalon-Automation\Include\config\log.properties
+2026-10-30 18:03:02.155 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS - Admin
+2026-10-30 18:03:02.239 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Budi Laksana
+2026-10-30 18:03:02.241 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = orangehrm_project
+2026-10-30 18:03:02.242 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = istna nisa - istnanisa
+2026-10-30 18:03:02.242 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-30 18:03:02.243 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.40
+2026-10-30 18:03:02.243 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-10-30 18:03:02.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:02.390 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Admin/TC1 - User Management Verify User List Page
+2026-10-30 18:03:02.754 DEBUG  - User Management Verify User List Page - 1: callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE)
+2026-10-30 18:03:02.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:02.972 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:03:03.045 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 18:03:03.108 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:03.108 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:03:03.206 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 18:03:03.412 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 18:03:03.456 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 6:03:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 6:03:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 18:03:05.363 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b307c0a303581fd8f38668d2343f822a
+2026-10-30 18:03:05.369 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 18:03:05.370 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 18:03:05.372 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 18:03:05.379 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 18:03:05.422 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 18:03:10.513 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 18:03:12.084 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 18:03:12.443 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 18:03:12.786 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 18:03:16.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:03:16.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:16.855 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 18:03:18.671 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 18:03:21.120 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:03:21.120 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:21.130 DEBUG  - User Management Verify User List Page - 2: verifyElementVisible(findTestObject("page_admin/table_user_rows"), STOP_ON_FAILURE)
+2026-10-30 18:03:21.404 DEBUG  - User Management Verify User List Page - 3: closeBrowser()
+2026-10-30 18:03:21.620 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Admin/TC1 - User Management Verify User List Page
+2026-10-30 18:03:21.620 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:21.620 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Admin/TC2 - Search By Username
+2026-10-30 18:03:21.754 DEBUG testcase.TC2 - Search By Username        - 1: callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE)
+2026-10-30 18:03:21.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:21.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:03:21.855 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 18:03:21.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:21.921 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:03:21.921 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 18:03:21.938 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 18:03:21.941 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 6:03:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 6:03:22 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 18:03:22.679 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b3d84472a16d10fd3162241a51f58c11
+2026-10-30 18:03:22.680 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 18:03:22.681 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 18:03:22.681 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 18:03:22.682 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 18:03:22.713 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 18:03:26.262 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 18:03:27.674 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 18:03:28.030 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 18:03:28.353 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 18:03:31.680 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:03:31.680 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:31.685 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 18:03:32.910 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 18:03:34.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:03:34.479 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:34.481 DEBUG testcase.TC2 - Search By Username        - 2: click(findTestObject("page_admin/field_Username"))
+2026-10-30 18:03:34.828 DEBUG testcase.TC2 - Search By Username        - 3: setText(findTestObject("page_admin/field_Username"), validUsername)
+2026-10-30 18:03:35.478 DEBUG testcase.TC2 - Search By Username        - 4: click(findTestObject("page_admin/button_Search"))
+2026-10-30 18:03:35.820 DEBUG testcase.TC2 - Search By Username        - 5: expectedUsername = validUsername
+2026-10-30 18:03:35.820 DEBUG testcase.TC2 - Search By Username        - 6: rows = findWebElements(findTestObject("page_admin/table_user_rows"), 10)
+2026-10-30 18:03:36.731 DEBUG testcase.TC2 - Search By Username        - 7: assert rows.size() > 0 : "Search result is empty"
+2026-10-30 18:03:36.734 DEBUG testcase.TC2 - Search By Username        - 8: rows.eachWithIndex({ java.lang.Object row, java.lang.Object index -> ... })
+2026-10-30 18:03:37.052 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 1: Username = Admin
+2026-10-30 18:03:37.052 DEBUG testcase.TC2 - Search By Username        - 9: closeBrowser()
+2026-10-30 18:03:37.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Admin/TC2 - Search By Username
+2026-10-30 18:03:37.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:37.271 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Admin/TC3 - Filter By User Role
+2026-10-30 18:03:37.381 DEBUG testcase.TC3 - Filter By User Role       - 1: callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE)
+2026-10-30 18:03:37.451 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:37.451 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:03:37.451 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 18:03:37.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:37.519 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:03:37.524 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 18:03:37.530 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 18:03:37.532 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 6:03:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 6:03:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 18:03:38.249 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ec529346bea7bc271835eb867ce86735
+2026-10-30 18:03:38.250 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 18:03:38.251 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 18:03:38.251 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 18:03:38.252 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 18:03:38.286 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 18:03:41.790 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 18:03:43.493 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 18:03:43.844 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 18:03:44.172 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 18:03:48.352 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:03:48.352 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:48.352 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 18:03:50.873 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 18:03:53.627 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:03:53.629 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:03:53.631 DEBUG testcase.TC3 - Filter By User Role       - 2: click(findTestObject("page_admin/dropdown_User Role"), STOP_ON_FAILURE)
+2026-10-30 18:03:53.974 DEBUG testcase.TC3 - Filter By User Role       - 3: click(findTestObject("page_admin/selectoptionUserrole_ESS"), STOP_ON_FAILURE)
+2026-10-30 18:03:54.565 DEBUG testcase.TC3 - Filter By User Role       - 4: click(findTestObject("page_admin/button_Search"))
+2026-10-30 18:03:55.130 DEBUG testcase.TC3 - Filter By User Role       - 5: expectedUserRole = "ESS"
+2026-10-30 18:03:55.132 DEBUG testcase.TC3 - Filter By User Role       - 6: rows = findWebElements(findTestObject("page_admin/table_user_rows"), 10)
+2026-10-30 18:03:56.564 DEBUG testcase.TC3 - Filter By User Role       - 7: assert rows.size() > 0 : "Search result is empty"
+2026-10-30 18:03:56.566 DEBUG testcase.TC3 - Filter By User Role       - 8: rows.eachWithIndex({ java.lang.Object row, java.lang.Object index -> ... })
+2026-10-30 18:03:56.842 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 1: User Role = ESS
+2026-10-30 18:03:57.094 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 2: User Role = ESS
+2026-10-30 18:03:57.341 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 3: User Role = ESS
+2026-10-30 18:03:57.600 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 4: User Role = ESS
+2026-10-30 18:03:57.853 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 5: User Role = ESS
+2026-10-30 18:03:58.112 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 6: User Role = ESS
+2026-10-30 18:03:58.358 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 7: User Role = ESS
+2026-10-30 18:03:58.613 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 8: User Role = ESS
+2026-10-30 18:03:58.860 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 9: User Role = ESS
+2026-10-30 18:03:59.113 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 10: User Role = ESS
+2026-10-30 18:03:59.369 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 11: User Role = ESS
+2026-10-30 18:03:59.611 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 12: User Role = ESS
+2026-10-30 18:03:59.857 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 13: User Role = ESS
+2026-10-30 18:04:00.097 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 14: User Role = ESS
+2026-10-30 18:04:00.349 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 15: User Role = ESS
+2026-10-30 18:04:00.587 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 16: User Role = ESS
+2026-10-30 18:04:00.838 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 17: User Role = ESS
+2026-10-30 18:04:01.084 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 18: User Role = ESS
+2026-10-30 18:04:01.329 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 19: User Role = ESS
+2026-10-30 18:04:01.586 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 20: User Role = ESS
+2026-10-30 18:04:01.826 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 21: User Role = ESS
+2026-10-30 18:04:02.064 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 22: User Role = ESS
+2026-10-30 18:04:02.306 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 23: User Role = ESS
+2026-10-30 18:04:02.558 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 24: User Role = ESS
+2026-10-30 18:04:02.795 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 25: User Role = ESS
+2026-10-30 18:04:03.054 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 26: User Role = ESS
+2026-10-30 18:04:03.304 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 27: User Role = ESS
+2026-10-30 18:04:03.305 DEBUG testcase.TC3 - Filter By User Role       - 9: closeBrowser()
+2026-10-30 18:04:03.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Admin/TC3 - Filter By User Role
+2026-10-30 18:04:03.546 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:03.546 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Admin/TC4 - Filter By Status
+2026-10-30 18:04:03.645 DEBUG testcase.TC4 - Filter By Status          - 1: callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE)
+2026-10-30 18:04:03.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:03.716 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:04:03.744 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 18:04:03.829 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:03.829 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:04:03.860 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 18:04:03.862 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 18:04:03.865 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 6:04:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 6:04:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 18:04:05.216 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 874ab5b6fe711a9f65679ee6ee7fa77c
+2026-10-30 18:04:05.217 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 18:04:05.218 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 18:04:05.218 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 18:04:05.219 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 18:04:05.238 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 18:04:08.732 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 18:04:10.766 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 18:04:11.124 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 18:04:11.452 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 18:04:18.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:04:18.517 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:18.518 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 18:04:21.929 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 18:04:24.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:04:24.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:24.898 DEBUG testcase.TC4 - Filter By Status          - 2: click(findTestObject("page_admin/dropdown_Status"), STOP_ON_FAILURE)
+2026-10-30 18:04:25.223 DEBUG testcase.TC4 - Filter By Status          - 3: click(findTestObject("page_admin/selectoptionStatus_Enabled"), STOP_ON_FAILURE)
+2026-10-30 18:04:25.791 DEBUG testcase.TC4 - Filter By Status          - 4: click(findTestObject("page_admin/button_Search"))
+2026-10-30 18:04:26.323 DEBUG testcase.TC4 - Filter By Status          - 5: expectedStatus = "Enabled"
+2026-10-30 18:04:26.324 DEBUG testcase.TC4 - Filter By Status          - 6: rows = findWebElements(findTestObject("page_admin/table_user_rows"), 10)
+2026-10-30 18:04:27.217 DEBUG testcase.TC4 - Filter By Status          - 7: assert rows.size() > 0 : "Search result is empty"
+2026-10-30 18:04:27.218 DEBUG testcase.TC4 - Filter By Status          - 8: rows.eachWithIndex({ java.lang.Object row, java.lang.Object index -> ... })
+2026-10-30 18:04:27.474 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 1: Status = Enabled
+2026-10-30 18:04:27.720 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 2: Status = Enabled
+2026-10-30 18:04:27.958 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 3: Status = Enabled
+2026-10-30 18:04:28.199 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 4: Status = Enabled
+2026-10-30 18:04:28.441 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 5: Status = Enabled
+2026-10-30 18:04:28.687 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 6: Status = Enabled
+2026-10-30 18:04:28.936 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 7: Status = Enabled
+2026-10-30 18:04:29.171 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 8: Status = Enabled
+2026-10-30 18:04:29.416 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 9: Status = Enabled
+2026-10-30 18:04:29.659 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 10: Status = Enabled
+2026-10-30 18:04:29.899 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 11: Status = Enabled
+2026-10-30 18:04:30.147 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 12: Status = Enabled
+2026-10-30 18:04:30.391 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 13: Status = Enabled
+2026-10-30 18:04:30.649 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 14: Status = Enabled
+2026-10-30 18:04:30.895 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 15: Status = Enabled
+2026-10-30 18:04:31.149 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 16: Status = Enabled
+2026-10-30 18:04:31.388 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 17: Status = Enabled
+2026-10-30 18:04:31.624 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 18: Status = Enabled
+2026-10-30 18:04:31.863 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 19: Status = Enabled
+2026-10-30 18:04:32.103 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 20: Status = Enabled
+2026-10-30 18:04:32.342 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 21: Status = Enabled
+2026-10-30 18:04:32.590 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 22: Status = Enabled
+2026-10-30 18:04:32.836 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 23: Status = Enabled
+2026-10-30 18:04:33.083 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 24: Status = Enabled
+2026-10-30 18:04:33.333 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 25: Status = Enabled
+2026-10-30 18:04:33.582 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 26: Status = Enabled
+2026-10-30 18:04:33.818 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 27: Status = Enabled
+2026-10-30 18:04:34.068 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 28: Status = Enabled
+2026-10-30 18:04:34.313 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 29: Status = Enabled
+2026-10-30 18:04:34.590 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 30: Status = Enabled
+2026-10-30 18:04:34.837 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 31: Status = Enabled
+2026-10-30 18:04:35.082 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 32: Status = Enabled
+2026-10-30 18:04:35.330 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 33: Status = Enabled
+2026-10-30 18:04:35.586 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 34: Status = Enabled
+2026-10-30 18:04:35.834 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 35: Status = Enabled
+2026-10-30 18:04:36.073 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Row 36: Status = Enabled
+2026-10-30 18:04:36.074 DEBUG testcase.TC4 - Filter By Status          - 9: closeBrowser()
+2026-10-30 18:04:36.289 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Admin/TC4 - Filter By Status
+2026-10-30 18:04:36.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:36.305 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Admin/TC5 - Reset Filters
+2026-10-30 18:04:36.392 DEBUG testcase.TC5 - Reset Filters             - 1: callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE)
+2026-10-30 18:04:36.462 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:36.462 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:04:36.469 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 18:04:36.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:36.530 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:04:36.536 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 18:04:36.537 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 18:04:36.538 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 6:04:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 6:04:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 18:04:37.283 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f4d67ad2f969835557152aaf97f389d3
+2026-10-30 18:04:37.284 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 18:04:37.284 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 18:04:37.284 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 18:04:37.285 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 18:04:37.304 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 18:04:41.396 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 18:04:42.694 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 18:04:43.025 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 18:04:43.346 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 18:04:47.370 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:04:47.370 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:47.372 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 18:04:48.809 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 18:04:50.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:04:50.946 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:50.948 DEBUG testcase.TC5 - Reset Filters             - 2: click(findTestObject("page_admin/field_Username"))
+2026-10-30 18:04:51.301 DEBUG testcase.TC5 - Reset Filters             - 3: setText(findTestObject("page_admin/field_Username"), validUsername)
+2026-10-30 18:04:51.895 DEBUG testcase.TC5 - Reset Filters             - 4: click(findTestObject("page_admin/dropdown_User Role"))
+2026-10-30 18:04:52.213 DEBUG testcase.TC5 - Reset Filters             - 5: click(findTestObject("page_admin/selectoptionUserrole_ESS"))
+2026-10-30 18:04:52.761 DEBUG testcase.TC5 - Reset Filters             - 6: click(findTestObject("page_admin/dropdown_Status"))
+2026-10-30 18:04:53.307 DEBUG testcase.TC5 - Reset Filters             - 7: click(findTestObject("page_admin/selectoptionStatus_Enabled"))
+2026-10-30 18:04:53.823 DEBUG testcase.TC5 - Reset Filters             - 8: click(findTestObject("page_admin/button_Search"))
+2026-10-30 18:04:54.360 DEBUG testcase.TC5 - Reset Filters             - 9: click(findTestObject("page_admin/button_Reset"))
+2026-10-30 18:04:55.637 DEBUG testcase.TC5 - Reset Filters             - 10: verifyElementAttributeValue(findTestObject("page_admin/field_Username"), "value", "", 10)
+2026-10-30 18:04:56.774 DEBUG testcase.TC5 - Reset Filters             - 11: verifyElementText(findTestObject("page_admin/dropdown_User Role"), "-- Select --")
+2026-10-30 18:04:57.031 DEBUG testcase.TC5 - Reset Filters             - 12: verifyElementText(findTestObject("page_admin/dropdown_Status"), "-- Select --")
+2026-10-30 18:04:57.275 DEBUG testcase.TC5 - Reset Filters             - 13: closeBrowser()
+2026-10-30 18:04:57.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Admin/TC5 - Reset Filters
+2026-10-30 18:04:57.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:57.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Admin/TC6 - Verify User Details
+2026-10-30 18:04:57.559 DEBUG testcase.TC6 - Verify User Details       - 1: callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE)
+2026-10-30 18:04:57.623 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:57.623 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:04:57.632 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 18:04:57.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:04:57.694 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:04:57.703 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 18:04:57.704 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 18:04:57.705 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 6:04:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 6:04:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 18:04:58.425 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f072dd95e4a1bc3abfce0a3d829c650b
+2026-10-30 18:04:58.426 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 18:04:58.426 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 18:04:58.426 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 18:04:58.427 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 18:04:58.444 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 18:05:02.314 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 18:05:03.598 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 18:05:03.929 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 18:05:04.246 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 18:05:08.028 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 18:05:08.028 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:05:08.029 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 18:05:09.199 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 18:05:11.141 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 18:05:11.141 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 18:05:11.142 DEBUG testcase.TC6 - Verify User Details       - 2: click(findTestObject("page_admin/field_Username"))
+2026-10-30 18:05:11.454 DEBUG testcase.TC6 - Verify User Details       - 3: setText(findTestObject("page_admin/field_Username"), validUsername)
+2026-10-30 18:05:12.057 DEBUG testcase.TC6 - Verify User Details       - 4: click(findTestObject("page_admin/button_Search"))
+2026-10-30 18:05:12.381 DEBUG testcase.TC6 - Verify User Details       - 5: click(findTestObject("page_admin/button_edit"), STOP_ON_FAILURE)
+2026-10-30 18:05:14.102 DEBUG testcase.TC6 - Verify User Details       - 6: verifyElementVisible(findTestObject("page_admin/title_Edit User"))
+2026-10-30 18:05:15.784 DEBUG testcase.TC6 - Verify User Details       - 7: closeBrowser()
+2026-10-30 18:05:16.001 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Admin/TC6 - Verify User Details
+2026-10-30 18:05:16.031 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-30 18:05:16.031 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS - Admin
+2026-10-30 18:05:16.031 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

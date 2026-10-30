@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Admin" time="133.794" tests="6" failures="0" errors="0">
+   <testsuite name="TS - Admin" tests="6" failures="0" errors="0" time="133.794" skipped="0" timestamp="2026-10-30T11:03:02.207Z" hostname="istna nisa - istnanisa" id="Test Suites/TS - Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\istna nisa\\git\\OrangeHRM-Katalon-Automation\\Reports\\20261030_180257\\TS - Admin\\20261030_180257"/>
+         <property name="logFiles" value="C:\\Users\\istna nisa\\git\\OrangeHRM-Katalon-Automation\\Reports\\20261030_180257\\TS - Admin\\20261030_180257\\console0.log, C:\\Users\\istna nisa\\git\\OrangeHRM-Katalon-Automation\\Reports\\20261030_180257\\TS - Admin\\20261030_180257\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="istna nisa - istnanisa"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 156.0.8078.79"/>
+         <property name="userFullName" value="Budi Laksana"/>
+         <property name="hostAddress" value="192.168.1.40"/>
+         <property name="sessionId" value="f072dd95e4a1bc3abfce0a3d829c650b"/>
+         <property name="projectName" value="orangehrm_project"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-Admin/TC1 - User Management Verify User List Page" time="19.23" classname="Test Cases/TC-Admin/TC1 - User Management Verify User List Page" status="PASSED">
+         <system-out><![CDATA[30-10-2026T18:03:02 - [TEST_CASE][PASSED] - Test Cases/TC-Admin/TC1 - User Management Verify User List Page: Test Cases/TC-Admin/TC1 - User Management Verify User List Page
+
+30-10-2026T18:03:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:03:02 - [TEST_CASE][PASSED] - Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page: Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+
+30-10-2026T18:03:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:03:03 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T18:03:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T18:03:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T18:03:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T18:03:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T18:03:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:03:10 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:03:10 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:03:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:03:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:03:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:03:12 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:03:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:03:16 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:03:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:03:16 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/menu_Admin")): Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:03:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_AdminUser Management")): Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:03:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:03:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/table_user_rows"), STOP_ON_FAILURE): Object 'Object Repository/page_admin/table_user_rows' is visible
+
+30-10-2026T18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/table_user_rows' is visible
+
+30-10-2026T18:03:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T18:03:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Admin/TC2 - Search By Username" time="15.649" classname="Test Cases/TC-Admin/TC2 - Search By Username" status="PASSED">
+         <system-out><![CDATA[30-10-2026T18:03:21 - [TEST_CASE][PASSED] - Test Cases/TC-Admin/TC2 - Search By Username: Test Cases/TC-Admin/TC2 - Search By Username
+
+30-10-2026T18:03:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:03:21 - [TEST_CASE][PASSED] - Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page: Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+
+30-10-2026T18:03:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:03:21 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T18:03:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T18:03:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T18:03:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T18:03:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T18:03:22 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:03:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:03:26 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:03:27 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:03:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:03:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:03:28 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:03:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:03:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:03:31 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/menu_Admin")): Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:03:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_AdminUser Management")): Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:03:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:03:34 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/field_Username")): Object: 'Object Repository/page_admin/field_Username' is clicked on
+
+30-10-2026T18:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/field_Username' is clicked on
+
+30-10-2026T18:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("page_admin/field_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_admin/field_Username'
+
+30-10-2026T18:03:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_admin/field_Username'
+
+30-10-2026T18:03:35 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_Search")): Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:03:35 - [TEST_STEP][PASSED] - expectedUsername = validUsername: null
+
+30-10-2026T18:03:35 - [TEST_STEP][PASSED] - rows = findWebElements(findTestObject("page_admin/table_user_rows"), 10): Found web elements by test object Object Repository/page_admin/table_user_rows
+
+30-10-2026T18:03:36 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/page_admin/table_user_rows
+
+30-10-2026T18:03:36 - [TEST_STEP][PASSED] - assert rows.size() > 0 : "Search result is empty": null
+
+30-10-2026T18:03:36 - [TEST_STEP][PASSED] - rows.eachWithIndex({ java.lang.Object row, java.lang.Object index -> ... }): Row 1: Username = Admin
+
+30-10-2026T18:03:37 - [MESSAGE][INFO] - Row 1: Username = Admin
+
+30-10-2026T18:03:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T18:03:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Admin/TC3 - Filter By User Role" time="26.256" classname="Test Cases/TC-Admin/TC3 - Filter By User Role" status="PASSED">
+         <system-out><![CDATA[30-10-2026T18:03:37 - [TEST_CASE][PASSED] - Test Cases/TC-Admin/TC3 - Filter By User Role: Test Cases/TC-Admin/TC3 - Filter By User Role
+
+30-10-2026T18:03:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:03:37 - [TEST_CASE][PASSED] - Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page: Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+
+30-10-2026T18:03:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:03:37 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T18:03:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T18:03:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T18:03:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T18:03:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T18:03:38 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:03:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:03:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:03:43 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:03:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:03:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:03:43 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:03:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:03:48 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:03:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:03:48 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/menu_Admin")): Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:03:50 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:03:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_AdminUser Management")): Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:03:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:03:53 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/dropdown_User Role"), STOP_ON_FAILURE): Object: 'Object Repository/page_admin/dropdown_User Role' is clicked on
+
+30-10-2026T18:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/dropdown_User Role' is clicked on
+
+30-10-2026T18:03:53 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/selectoptionUserrole_ESS"), STOP_ON_FAILURE): Object: 'Object Repository/page_admin/selectoptionUserrole_ESS' is clicked on
+
+30-10-2026T18:03:54 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/selectoptionUserrole_ESS' is clicked on
+
+30-10-2026T18:03:54 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_Search")): Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:03:55 - [TEST_STEP][PASSED] - expectedUserRole = "ESS": null
+
+30-10-2026T18:03:55 - [TEST_STEP][PASSED] - rows = findWebElements(findTestObject("page_admin/table_user_rows"), 10): Found web elements by test object Object Repository/page_admin/table_user_rows
+
+30-10-2026T18:03:56 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/page_admin/table_user_rows
+
+30-10-2026T18:03:56 - [TEST_STEP][PASSED] - assert rows.size() > 0 : "Search result is empty": null
+
+30-10-2026T18:03:56 - [TEST_STEP][PASSED] - rows.eachWithIndex({ java.lang.Object row, java.lang.Object index -> ... }): Row 27: User Role = ESS
+
+30-10-2026T18:03:56 - [MESSAGE][INFO] - Row 1: User Role = ESS
+
+30-10-2026T18:03:57 - [MESSAGE][INFO] - Row 2: User Role = ESS
+
+30-10-2026T18:03:57 - [MESSAGE][INFO] - Row 3: User Role = ESS
+
+30-10-2026T18:03:57 - [MESSAGE][INFO] - Row 4: User Role = ESS
+
+30-10-2026T18:03:57 - [MESSAGE][INFO] - Row 5: User Role = ESS
+
+30-10-2026T18:03:58 - [MESSAGE][INFO] - Row 6: User Role = ESS
+
+30-10-2026T18:03:58 - [MESSAGE][INFO] - Row 7: User Role = ESS
+
+30-10-2026T18:03:58 - [MESSAGE][INFO] - Row 8: User Role = ESS
+
+30-10-2026T18:03:58 - [MESSAGE][INFO] - Row 9: User Role = ESS
+
+30-10-2026T18:03:59 - [MESSAGE][INFO] - Row 10: User Role = ESS
+
+30-10-2026T18:03:59 - [MESSAGE][INFO] - Row 11: User Role = ESS
+
+30-10-2026T18:03:59 - [MESSAGE][INFO] - Row 12: User Role = ESS
+
+30-10-2026T18:03:59 - [MESSAGE][INFO] - Row 13: User Role = ESS
+
+30-10-2026T18:04:00 - [MESSAGE][INFO] - Row 14: User Role = ESS
+
+30-10-2026T18:04:00 - [MESSAGE][INFO] - Row 15: User Role = ESS
+
+30-10-2026T18:04:00 - [MESSAGE][INFO] - Row 16: User Role = ESS
+
+30-10-2026T18:04:00 - [MESSAGE][INFO] - Row 17: User Role = ESS
+
+30-10-2026T18:04:01 - [MESSAGE][INFO] - Row 18: User Role = ESS
+
+30-10-2026T18:04:01 - [MESSAGE][INFO] - Row 19: User Role = ESS
+
+30-10-2026T18:04:01 - [MESSAGE][INFO] - Row 20: User Role = ESS
+
+30-10-2026T18:04:01 - [MESSAGE][INFO] - Row 21: User Role = ESS
+
+30-10-2026T18:04:02 - [MESSAGE][INFO] - Row 22: User Role = ESS
+
+30-10-2026T18:04:02 - [MESSAGE][INFO] - Row 23: User Role = ESS
+
+30-10-2026T18:04:02 - [MESSAGE][INFO] - Row 24: User Role = ESS
+
+30-10-2026T18:04:02 - [MESSAGE][INFO] - Row 25: User Role = ESS
+
+30-10-2026T18:04:03 - [MESSAGE][INFO] - Row 26: User Role = ESS
+
+30-10-2026T18:04:03 - [MESSAGE][INFO] - Row 27: User Role = ESS
+
+30-10-2026T18:04:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T18:04:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Admin/TC4 - Filter By Status" time="32.743" classname="Test Cases/TC-Admin/TC4 - Filter By Status" status="PASSED">
+         <system-out><![CDATA[30-10-2026T18:04:03 - [TEST_CASE][PASSED] - Test Cases/TC-Admin/TC4 - Filter By Status: Test Cases/TC-Admin/TC4 - Filter By Status
+
+30-10-2026T18:04:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:04:03 - [TEST_CASE][PASSED] - Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page: Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+
+30-10-2026T18:04:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:04:03 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T18:04:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T18:04:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T18:04:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T18:04:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T18:04:05 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:04:08 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:04:08 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:04:10 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:04:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:04:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:04:11 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:04:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:04:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:04:18 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:04:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:04:18 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/menu_Admin")): Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:04:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_AdminUser Management")): Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:04:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:04:24 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/dropdown_Status"), STOP_ON_FAILURE): Object: 'Object Repository/page_admin/dropdown_Status' is clicked on
+
+30-10-2026T18:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/dropdown_Status' is clicked on
+
+30-10-2026T18:04:25 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/selectoptionStatus_Enabled"), STOP_ON_FAILURE): Object: 'Object Repository/page_admin/selectoptionStatus_Enabled' is clicked on
+
+30-10-2026T18:04:25 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/selectoptionStatus_Enabled' is clicked on
+
+30-10-2026T18:04:25 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_Search")): Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:04:26 - [TEST_STEP][PASSED] - expectedStatus = "Enabled": null
+
+30-10-2026T18:04:26 - [TEST_STEP][PASSED] - rows = findWebElements(findTestObject("page_admin/table_user_rows"), 10): Found web elements by test object Object Repository/page_admin/table_user_rows
+
+30-10-2026T18:04:27 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/page_admin/table_user_rows
+
+30-10-2026T18:04:27 - [TEST_STEP][PASSED] - assert rows.size() > 0 : "Search result is empty": null
+
+30-10-2026T18:04:27 - [TEST_STEP][PASSED] - rows.eachWithIndex({ java.lang.Object row, java.lang.Object index -> ... }): Row 36: Status = Enabled
+
+30-10-2026T18:04:27 - [MESSAGE][INFO] - Row 1: Status = Enabled
+
+30-10-2026T18:04:27 - [MESSAGE][INFO] - Row 2: Status = Enabled
+
+30-10-2026T18:04:27 - [MESSAGE][INFO] - Row 3: Status = Enabled
+
+30-10-2026T18:04:28 - [MESSAGE][INFO] - Row 4: Status = Enabled
+
+30-10-2026T18:04:28 - [MESSAGE][INFO] - Row 5: Status = Enabled
+
+30-10-2026T18:04:28 - [MESSAGE][INFO] - Row 6: Status = Enabled
+
+30-10-2026T18:04:28 - [MESSAGE][INFO] - Row 7: Status = Enabled
+
+30-10-2026T18:04:29 - [MESSAGE][INFO] - Row 8: Status = Enabled
+
+30-10-2026T18:04:29 - [MESSAGE][INFO] - Row 9: Status = Enabled
+
+30-10-2026T18:04:29 - [MESSAGE][INFO] - Row 10: Status = Enabled
+
+30-10-2026T18:04:29 - [MESSAGE][INFO] - Row 11: Status = Enabled
+
+30-10-2026T18:04:30 - [MESSAGE][INFO] - Row 12: Status = Enabled
+
+30-10-2026T18:04:30 - [MESSAGE][INFO] - Row 13: Status = Enabled
+
+30-10-2026T18:04:30 - [MESSAGE][INFO] - Row 14: Status = Enabled
+
+30-10-2026T18:04:30 - [MESSAGE][INFO] - Row 15: Status = Enabled
+
+30-10-2026T18:04:31 - [MESSAGE][INFO] - Row 16: Status = Enabled
+
+30-10-2026T18:04:31 - [MESSAGE][INFO] - Row 17: Status = Enabled
+
+30-10-2026T18:04:31 - [MESSAGE][INFO] - Row 18: Status = Enabled
+
+30-10-2026T18:04:31 - [MESSAGE][INFO] - Row 19: Status = Enabled
+
+30-10-2026T18:04:32 - [MESSAGE][INFO] - Row 20: Status = Enabled
+
+30-10-2026T18:04:32 - [MESSAGE][INFO] - Row 21: Status = Enabled
+
+30-10-2026T18:04:32 - [MESSAGE][INFO] - Row 22: Status = Enabled
+
+30-10-2026T18:04:32 - [MESSAGE][INFO] - Row 23: Status = Enabled
+
+30-10-2026T18:04:33 - [MESSAGE][INFO] - Row 24: Status = Enabled
+
+30-10-2026T18:04:33 - [MESSAGE][INFO] - Row 25: Status = Enabled
+
+30-10-2026T18:04:33 - [MESSAGE][INFO] - Row 26: Status = Enabled
+
+30-10-2026T18:04:33 - [MESSAGE][INFO] - Row 27: Status = Enabled
+
+30-10-2026T18:04:34 - [MESSAGE][INFO] - Row 28: Status = Enabled
+
+30-10-2026T18:04:34 - [MESSAGE][INFO] - Row 29: Status = Enabled
+
+30-10-2026T18:04:34 - [MESSAGE][INFO] - Row 30: Status = Enabled
+
+30-10-2026T18:04:34 - [MESSAGE][INFO] - Row 31: Status = Enabled
+
+30-10-2026T18:04:35 - [MESSAGE][INFO] - Row 32: Status = Enabled
+
+30-10-2026T18:04:35 - [MESSAGE][INFO] - Row 33: Status = Enabled
+
+30-10-2026T18:04:35 - [MESSAGE][INFO] - Row 34: Status = Enabled
+
+30-10-2026T18:04:35 - [MESSAGE][INFO] - Row 35: Status = Enabled
+
+30-10-2026T18:04:36 - [MESSAGE][INFO] - Row 36: Status = Enabled
+
+30-10-2026T18:04:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T18:04:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Admin/TC5 - Reset Filters" time="21.185" classname="Test Cases/TC-Admin/TC5 - Reset Filters" status="PASSED">
+         <system-out><![CDATA[30-10-2026T18:04:36 - [TEST_CASE][PASSED] - Test Cases/TC-Admin/TC5 - Reset Filters: Test Cases/TC-Admin/TC5 - Reset Filters
+
+30-10-2026T18:04:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:04:36 - [TEST_CASE][PASSED] - Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page: Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+
+30-10-2026T18:04:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:04:36 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T18:04:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T18:04:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T18:04:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T18:04:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T18:04:37 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:04:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:04:42 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:04:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:04:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:04:43 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:04:43 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:04:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:04:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:04:47 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/menu_Admin")): Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:04:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_AdminUser Management")): Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:04:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:04:50 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/field_Username")): Object: 'Object Repository/page_admin/field_Username' is clicked on
+
+30-10-2026T18:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/field_Username' is clicked on
+
+30-10-2026T18:04:51 - [TEST_STEP][PASSED] - setText(findTestObject("page_admin/field_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_admin/field_Username'
+
+30-10-2026T18:04:51 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_admin/field_Username'
+
+30-10-2026T18:04:51 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/dropdown_User Role")): Object: 'Object Repository/page_admin/dropdown_User Role' is clicked on
+
+30-10-2026T18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/dropdown_User Role' is clicked on
+
+30-10-2026T18:04:52 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/selectoptionUserrole_ESS")): Object: 'Object Repository/page_admin/selectoptionUserrole_ESS' is clicked on
+
+30-10-2026T18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/selectoptionUserrole_ESS' is clicked on
+
+30-10-2026T18:04:52 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/dropdown_Status")): Object: 'Object Repository/page_admin/dropdown_Status' is clicked on
+
+30-10-2026T18:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/dropdown_Status' is clicked on
+
+30-10-2026T18:04:53 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/selectoptionStatus_Enabled")): Object: 'Object Repository/page_admin/selectoptionStatus_Enabled' is clicked on
+
+30-10-2026T18:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/selectoptionStatus_Enabled' is clicked on
+
+30-10-2026T18:04:53 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_Search")): Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:04:54 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_Reset")): Object: 'Object Repository/page_admin/button_Reset' is clicked on
+
+30-10-2026T18:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_Reset' is clicked on
+
+30-10-2026T18:04:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("page_admin/field_Username"), "value", "", 10): Object 'Object Repository/page_admin/field_Username' has attribute 'value' with value ''
+
+30-10-2026T18:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/field_Username' has attribute 'value' with value ''
+
+30-10-2026T18:04:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("page_admin/dropdown_User Role"), "-- Select --"): Actual text and expected text of test object 'Object Repository/page_admin/dropdown_User Role' are matched.
+
+30-10-2026T18:04:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_admin/dropdown_User Role' are matched.
+
+30-10-2026T18:04:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("page_admin/dropdown_Status"), "-- Select --"): Actual text and expected text of test object 'Object Repository/page_admin/dropdown_Status' are matched.
+
+30-10-2026T18:04:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/page_admin/dropdown_Status' are matched.
+
+30-10-2026T18:04:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T18:04:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Admin/TC6 - Verify User Details" time="18.497" classname="Test Cases/TC-Admin/TC6 - Verify User Details" status="PASSED">
+         <system-out><![CDATA[30-10-2026T18:04:57 - [TEST_CASE][PASSED] - Test Cases/TC-Admin/TC6 - Verify User Details: Test Cases/TC-Admin/TC6 - Verify User Details
+
+30-10-2026T18:04:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Dashboard/TC4 - Navigate To Admin Page"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:04:57 - [TEST_CASE][PASSED] - Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page: Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+
+30-10-2026T18:04:57 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:04:57 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T18:04:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T18:04:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T18:04:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T18:04:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T18:04:58 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:05:02 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T18:05:02 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:05:03 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T18:05:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:05:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T18:05:03 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:05:04 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T18:05:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:05:08 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T18:05:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T18:05:08 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/menu_Admin")): Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/menu_Admin' is clicked on
+
+30-10-2026T18:05:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_AdminUser Management")): Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_AdminUser Management' is visible
+
+30-10-2026T18:05:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page' successfully
+
+30-10-2026T18:05:11 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/field_Username")): Object: 'Object Repository/page_admin/field_Username' is clicked on
+
+30-10-2026T18:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/field_Username' is clicked on
+
+30-10-2026T18:05:11 - [TEST_STEP][PASSED] - setText(findTestObject("page_admin/field_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_admin/field_Username'
+
+30-10-2026T18:05:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_admin/field_Username'
+
+30-10-2026T18:05:12 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_Search")): Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_Search' is clicked on
+
+30-10-2026T18:05:12 - [TEST_STEP][PASSED] - click(findTestObject("page_admin/button_edit"), STOP_ON_FAILURE): Object: 'Object Repository/page_admin/button_edit' is clicked on
+
+30-10-2026T18:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/page_admin/button_edit' is clicked on
+
+30-10-2026T18:05:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_admin/title_Edit User")): Object 'Object Repository/page_admin/title_Edit User' is visible
+
+30-10-2026T18:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/page_admin/title_Edit User' is visible
+
+30-10-2026T18:05:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T18:05:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-10-2026T18:03:02 - [TEST_SUITE][PASSED] - TS - Admin: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
