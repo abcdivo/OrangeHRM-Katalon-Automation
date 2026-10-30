@@ -17,3 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('TC-Dashboard/TC4 - Navigate To Admin Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
