@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1 - User Management Verify User List Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>653800a2-8aad-4c4c-b17c-0419efa6f1d6</testCaseGuid>
+</TestCaseEntity>

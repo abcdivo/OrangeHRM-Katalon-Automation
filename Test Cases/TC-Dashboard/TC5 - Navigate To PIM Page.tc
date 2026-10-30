@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5 - Navigate To PIM Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77e17180-52f3-4def-b2a5-d6f0597e4567</testCaseGuid>
+</TestCaseEntity>

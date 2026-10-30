@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5 - Reset Filters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>634473c9-f269-4643-a7eb-9893d3bdab16</testCaseGuid>
+</TestCaseEntity>

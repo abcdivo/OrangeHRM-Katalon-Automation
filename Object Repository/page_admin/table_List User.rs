@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_List User</name>
+   <tag></tag>
+   <elementGuidId>70e7e07e-0969-467f-b9ce-b5e2bea97f7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'orangehrm-container' and (text() = 'UsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActionsAdminAdminmanda userEnabledFMLNameESSQwerty LNameEnabledFMLName1ESSFName LNameEnabledJobinsam@6742ESSJobin SamEnabledtestusernameESStest test lEnableduser1793347311125561ESSAuto1793347311125772 UserDisableduser_1793348254955ESSVenkat CEnabled' or . = 'UsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActionsAdminAdminmanda userEnabledFMLNameESSQwerty LNameEnabledFMLName1ESSFName LNameEnabledJobinsam@6742ESSJobin SamEnabledtestusernameESStest test lEnableduser1793347311125561ESSAuto1793347311125772 UserDisableduser_1793348254955ESSVenkat CEnabled')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.orangehrm-container</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3d673ad1-6283-4bf6-9272-7a3ab881221c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>orangehrm-container</value>
+      <webElementGuid>c0e0b2cb-fab6-455c-8b24-732c35f16f5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>UsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActionsAdminAdminmanda userEnabledFMLNameESSQwerty LNameEnabledFMLName1ESSFName LNameEnabledJobinsam@6742ESSJobin SamEnabledtestusernameESStest test lEnableduser1793347311125561ESSAuto1793347311125772 UserDisableduser_1793348254955ESSVenkat CEnabled</value>
+      <webElementGuid>048f0310-e87f-4d0b-a19a-4d416012b0ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-paper-container&quot;]/div[@class=&quot;orangehrm-container&quot;]</value>
+      <webElementGuid>51cc1a17-917d-4a79-a826-166335911873</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div[2]/div[3]</value>
+      <webElementGuid>9759303f-fef6-476d-b1a4-4135ec042e53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[3]</value>
+      <webElementGuid>3cd87b6d-a828-41b3-877f-7b8acf4dd298</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'UsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActionsAdminAdminmanda userEnabledFMLNameESSQwerty LNameEnabledFMLName1ESSFName LNameEnabledJobinsam@6742ESSJobin SamEnabledtestusernameESStest test lEnableduser1793347311125561ESSAuto1793347311125772 UserDisableduser_1793348254955ESSVenkat CEnabled' or . = 'UsernameAscendingDescendingUser RoleAscendingDescendingEmployee NameAscendingDescendingStatusAscendingDescendingActionsAdminAdminmanda userEnabledFMLNameESSQwerty LNameEnabledFMLName1ESSFName LNameEnabledJobinsam@6742ESSJobin SamEnabledtestusernameESStest test lEnableduser1793347311125561ESSAuto1793347311125772 UserDisableduser_1793348254955ESSVenkat CEnabled')]</value>
+      <webElementGuid>60f68822-f3b4-4f09-81d7-858212fd3b58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6 - Navigate To Leave Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4d2d5d6-d5be-4c74-9192-9850b894a26f</testCaseGuid>
+</TestCaseEntity>

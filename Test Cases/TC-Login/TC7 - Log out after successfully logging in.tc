@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7 - Log out after successfully logging in</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7ad3d53-460e-43d6-a8f3-11563469b3c8</testCaseGuid>
+</TestCaseEntity>

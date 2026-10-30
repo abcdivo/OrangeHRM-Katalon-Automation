@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1 - Verify Dashboard After Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d4fdda17-0a1d-4fbb-bcfd-205343fe471a</testCaseGuid>
+</TestCaseEntity>

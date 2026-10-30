@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Dashboard,Chrome 156.0.8078.79,,,30-10-2026 16:34:50,30-10-2026 16:39:08,4m - 18.347s,PASSED
+,,,,,,,
+Test Cases/TC-Dashboard/TC1 - Verify Dashboard After Login,Chrome 156.0.8078.79,,,30-10-2026 16:34:50,30-10-2026 16:35:30,40.243s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:34:50,30-10-2026 16:35:28,37.950s,PASSED
+"verifyElementVisible(findTestObject(""page_dashboard/menu_Dashboard""))",Chrome 156.0.8078.79,,,30-10-2026 16:35:28,30-10-2026 16:35:30,1.693s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:35:30,30-10-2026 16:35:30,0.257s,PASSED
+,,,,,,,
+Test Cases/TC-Dashboard/TC2 - Verify Page Title Dashboard,Chrome 156.0.8078.79,,,30-10-2026 16:35:30,30-10-2026 16:36:01,30.967s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:35:30,30-10-2026 16:36:00,30.232s,PASSED
+"verifyElementVisible(findTestObject(""page_dashboard/h6_Dashboard""))",Chrome 156.0.8078.79,,,30-10-2026 16:36:00,30-10-2026 16:36:01,0.283s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:36:01,30-10-2026 16:36:01,0.395s,PASSED
+,,,,,,,
+Test Cases/TC-Dashboard/TC3 - Verify Left Side Navigation Menu,Chrome 156.0.8078.79,,,30-10-2026 16:36:01,30-10-2026 16:36:35,33.408s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:36:01,30-10-2026 16:36:34,32.885s,PASSED
+"verifyElementVisible(findTestObject(""page_dashboard/left_side_navigation_menu""))",Chrome 156.0.8078.79,,,30-10-2026 16:36:34,30-10-2026 16:36:34,0.260s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:36:34,30-10-2026 16:36:35,0.204s,PASSED
+,,,,,,,
+Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page,Chrome 156.0.8078.79,,,30-10-2026 16:36:35,30-10-2026 16:37:26,51.492s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:36:35,30-10-2026 16:37:07,32.741s,PASSED
+"click(findTestObject(""page_dashboard/menu_Admin""))",Chrome 156.0.8078.79,,,30-10-2026 16:37:07,30-10-2026 16:37:17,9.246s,PASSED
+"verifyElementVisible(findTestObject(""page_admin/title_AdminUser Management""))",Chrome 156.0.8078.79,,,30-10-2026 16:37:17,30-10-2026 16:37:26,9.429s,PASSED
+,,,,,,,
+Test Cases/TC-Dashboard/TC5 - Navigate To PIM Page,Chrome 156.0.8078.79,,,30-10-2026 16:37:26,30-10-2026 16:38:18,51.586s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:37:26,30-10-2026 16:38:00,33.974s,PASSED
+"click(findTestObject(""page_dashboard/menu_PIM""))",Chrome 156.0.8078.79,,,30-10-2026 16:38:00,30-10-2026 16:38:07,7.049s,PASSED
+"verifyElementVisible(findTestObject(""page_pim/title_PIM""))",Chrome 156.0.8078.79,,,30-10-2026 16:38:07,30-10-2026 16:38:17,10.280s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:38:17,30-10-2026 16:38:18,0.199s,PASSED
+,,,,,,,
+Test Cases/TC-Dashboard/TC6 - Navigate To Leave Page,Chrome 156.0.8078.79,,,30-10-2026 16:38:18,30-10-2026 16:39:08,50.361s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:38:18,30-10-2026 16:38:49,31.732s,PASSED
+"click(findTestObject(""page_dashboard/menu_Leave""))",Chrome 156.0.8078.79,,,30-10-2026 16:38:49,30-10-2026 16:38:57,8.017s,PASSED
+"verifyElementVisible(findTestObject(""page_Leave/title_Leave""))",Chrome 156.0.8078.79,,,30-10-2026 16:38:57,30-10-2026 16:39:08,10.285s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:39:08,30-10-2026 16:39:08,0.261s,PASSED

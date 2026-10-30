@@ -1,0 +1,177 @@
+2026-10-30 16:34:49.447 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\istna nisa\.katalon\packages\KS-11.0.1\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-10-30 16:34:49.449 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\istna nisa\git\orangehrm_project\Include\config\log.properties
+2026-10-30 16:34:50.098 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS - Dashboard
+2026-10-30 16:34:50.168 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Budi Laksana
+2026-10-30 16:34:50.169 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = orangehrm_project
+2026-10-30 16:34:50.171 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = istna nisa - istnanisa
+2026-10-30 16:34:50.171 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-10-30 16:34:50.172 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.40
+2026-10-30 16:34:50.173 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.1.0
+2026-10-30 16:34:50.344 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:34:50.345 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Dashboard/TC1 - Verify Dashboard After Login
+2026-10-30 16:34:50.686 DEBUG t.TC1 - Verify Dashboard After Login     - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 16:34:50.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:34:50.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:34:50.978 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 16:34:51.157 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 16:34:51.202 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 4:34:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 4:34:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 16:34:52.944 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d4b7694f8bdb5891e9988a1d7ca86050
+2026-10-30 16:34:52.945 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 16:34:52.946 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 16:34:52.947 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 16:34:52.953 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 16:34:53.000 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 16:35:03.133 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 16:35:08.298 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 16:35:08.666 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 16:35:08.998 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 16:35:28.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:35:28.630 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:35:28.636 DEBUG t.TC1 - Verify Dashboard After Login     - 2: verifyElementVisible(findTestObject("page_dashboard/menu_Dashboard"))
+2026-10-30 16:35:30.329 DEBUG t.TC1 - Verify Dashboard After Login     - 3: closeBrowser()
+2026-10-30 16:35:30.587 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Dashboard/TC1 - Verify Dashboard After Login
+2026-10-30 16:35:30.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:35:30.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Dashboard/TC2 - Verify Page Title Dashboard
+2026-10-30 16:35:30.666 DEBUG t.TC2 - Verify Page Title Dashboard      - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 16:35:30.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:35:30.726 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:35:30.734 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 16:35:30.736 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 16:35:30.738 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 4:35:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 4:35:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 16:35:31.564 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8ced93ae58cb1c013b169cb0ccec9b23
+2026-10-30 16:35:31.565 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 16:35:31.566 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 16:35:31.566 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 16:35:31.567 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 16:35:31.596 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 16:35:37.810 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 16:35:41.194 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 16:35:41.533 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 16:35:51.366 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 16:36:00.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:36:00.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:36:00.897 DEBUG t.TC2 - Verify Page Title Dashboard      - 2: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"))
+2026-10-30 16:36:01.181 DEBUG t.TC2 - Verify Page Title Dashboard      - 3: closeBrowser()
+2026-10-30 16:36:01.576 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Dashboard/TC2 - Verify Page Title Dashboard
+2026-10-30 16:36:01.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:36:01.608 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Dashboard/TC3 - Verify Left Side Navigation Menu
+2026-10-30 16:36:01.666 DEBUG t.TC3 - Verify Left Side Navigation Menu - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 16:36:01.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:36:01.736 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:36:01.749 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 16:36:01.751 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 16:36:01.756 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 4:36:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 4:36:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 16:36:02.515 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dbf8b6799300c97974d8c0ad3d600626
+2026-10-30 16:36:02.516 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 16:36:02.517 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 16:36:02.517 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 16:36:02.518 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 16:36:02.543 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 16:36:10.397 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 16:36:15.101 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 16:36:15.490 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 16:36:15.807 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 16:36:34.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:36:34.548 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:36:34.549 DEBUG t.TC3 - Verify Left Side Navigation Menu - 2: verifyElementVisible(findTestObject("page_dashboard/left_side_navigation_menu"))
+2026-10-30 16:36:34.811 DEBUG t.TC3 - Verify Left Side Navigation Menu - 3: closeBrowser()
+2026-10-30 16:36:35.016 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Dashboard/TC3 - Verify Left Side Navigation Menu
+2026-10-30 16:36:35.019 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:36:35.019 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 16:36:35.093 DEBUG testcase.TC4 - Navigate To Admin Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 16:36:35.171 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:36:35.171 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:36:35.179 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 16:36:35.181 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 16:36:35.181 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 4:36:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 4:36:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 16:36:36.058 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0057791d1e09c9b5ef5f8c84149c1735
+2026-10-30 16:36:36.058 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 16:36:36.059 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 16:36:36.059 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 16:36:36.060 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 16:36:36.080 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 16:36:42.601 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 16:36:47.622 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 16:36:47.965 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 16:36:48.300 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 16:37:07.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:37:07.831 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:37:07.834 DEBUG testcase.TC4 - Navigate To Admin Page    - 2: click(findTestObject("page_dashboard/menu_Admin"))
+2026-10-30 16:37:17.080 DEBUG testcase.TC4 - Navigate To Admin Page    - 3: verifyElementVisible(findTestObject("page_admin/title_AdminUser Management"))
+2026-10-30 16:37:26.510 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Dashboard/TC4 - Navigate To Admin Page
+2026-10-30 16:37:26.513 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:37:26.514 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Dashboard/TC5 - Navigate To PIM Page
+2026-10-30 16:37:26.597 DEBUG testcase.TC5 - Navigate To PIM Page      - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 16:37:26.657 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:37:26.657 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:37:26.667 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 16:37:26.669 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-10-30 16:37:26.899 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 16:37:26.904 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 4:37:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 4:37:27 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 16:37:27.661 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4c5422ae206231231074e4d8ad27ad11
+2026-10-30 16:37:27.661 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 16:37:27.663 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 16:37:27.663 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 16:37:27.664 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 16:37:27.687 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 16:37:34.693 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 16:37:38.188 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 16:37:38.518 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 16:37:38.831 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 16:38:00.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:38:00.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:38:00.571 DEBUG testcase.TC5 - Navigate To PIM Page      - 2: click(findTestObject("page_dashboard/menu_PIM"))
+2026-10-30 16:38:07.620 DEBUG testcase.TC5 - Navigate To PIM Page      - 3: verifyElementVisible(findTestObject("page_pim/title_PIM"))
+2026-10-30 16:38:17.900 DEBUG testcase.TC5 - Navigate To PIM Page      - 4: closeBrowser()
+2026-10-30 16:38:18.100 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Dashboard/TC5 - Navigate To PIM Page
+2026-10-30 16:38:18.103 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:38:18.104 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TC-Dashboard/TC6 - Navigate To Leave Page
+2026-10-30 16:38:18.165 DEBUG testcase.TC6 - Navigate To Leave Page    - 1: callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE)
+2026-10-30 16:38:18.228 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:38:18.228 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:38:18.239 DEBUG n with valid username and valid password - 1: openBrowser("")
+2026-10-30 16:38:18.240 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-10-30 16:38:18.241 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2026 4:38:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 156
+Oct 30, 2026 4:38:18 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 156.0.8078.79. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.39.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2026-10-30 16:38:18.968 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 816da3042fb81d67a0f83342437d12cc
+2026-10-30 16:38:18.968 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 156.0.8078.79
+2026-10-30 16:38:18.969 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-10-30 16:38:18.969 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-10-30 16:38:18.970 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-10-30 16:38:18.990 DEBUG n with valid username and valid password - 2: navigateToUrl(baseUrl)
+2026-10-30 16:38:25.554 DEBUG n with valid username and valid password - 3: setText(findTestObject("page_login/input_Username"), validUsername)
+2026-10-30 16:38:30.027 DEBUG n with valid username and valid password - 4: setEncryptedText(findTestObject("page_login/input_Password"), validPassword)
+2026-10-30 16:38:30.363 DEBUG n with valid username and valid password - 5: click(findTestObject("page_login/button_Login"))
+2026-10-30 16:38:30.684 DEBUG n with valid username and valid password - 6: verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE)
+2026-10-30 16:38:49.895 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/TC-Login/TC1 - Login with valid username and valid password
+2026-10-30 16:38:49.895 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-10-30 16:38:49.897 DEBUG testcase.TC6 - Navigate To Leave Page    - 2: click(findTestObject("page_dashboard/menu_Leave"))
+2026-10-30 16:38:57.915 DEBUG testcase.TC6 - Navigate To Leave Page    - 3: verifyElementVisible(findTestObject("page_Leave/title_Leave"))
+2026-10-30 16:39:08.202 DEBUG testcase.TC6 - Navigate To Leave Page    - 4: closeBrowser()
+2026-10-30 16:39:08.465 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TC-Dashboard/TC6 - Navigate To Leave Page
+2026-10-30 16:39:08.487 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-10-30 16:39:08.487 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS - Dashboard
+2026-10-30 16:39:08.487 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

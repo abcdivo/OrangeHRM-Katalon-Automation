@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Login" time="233.304" tests="7" failures="0" errors="0">
+   <testsuite name="TS - Login" tests="7" failures="0" errors="0" time="233.304" skipped="0" timestamp="2026-10-30T09:41:27.273Z" hostname="istna nisa - istnanisa" id="Test Suites/TS - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\istna nisa\\git\\orangehrm_project\\Reports\\20261030_164122\\TS - Login\\20261030_164122"/>
+         <property name="logFiles" value="C:\\Users\\istna nisa\\git\\orangehrm_project\\Reports\\20261030_164122\\TS - Login\\20261030_164122\\console0.log, C:\\Users\\istna nisa\\git\\orangehrm_project\\Reports\\20261030_164122\\TS - Login\\20261030_164122\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="istna nisa - istnanisa"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.1.0"/>
+         <property name="browser" value="Chrome 156.0.8078.79"/>
+         <property name="userFullName" value="Budi Laksana"/>
+         <property name="hostAddress" value="192.168.1.40"/>
+         <property name="sessionId" value="119217556cbd8ccbd095c2f19a326708"/>
+         <property name="projectName" value="orangehrm_project"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TC-Login/TC1 - Login with valid username and valid password" time="42.027" classname="Test Cases/TC-Login/TC1 - Login with valid username and valid password" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:41:27 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T16:41:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:41:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:41:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:41:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:41:30 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:41:41 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:41:41 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:41:46 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:41:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:41:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:41:47 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:41:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T16:42:09 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Login/TC2 - Login with valid username and invalid password" time="32.247" classname="Test Cases/TC-Login/TC2 - Login with valid username and invalid password" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:42:09 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC2 - Login with valid username and invalid password: Test Cases/TC-Login/TC2 - Login with valid username and invalid password
+
+30-10-2026T16:42:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:42:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-10-2026T16:42:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:42:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:42:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:42:10 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:42:20 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:42:24 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:42:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), invalidPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:42:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:42:24 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:42:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/alert_Invalid credentials"), STOP_ON_FAILURE): Object 'Object Repository/page_login/alert_Invalid credentials' is visible
+
+30-10-2026T16:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/alert_Invalid credentials' is visible
+
+30-10-2026T16:42:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T16:42:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Login/TC3 - Login with invalid username and valid password" time="32.377" classname="Test Cases/TC-Login/TC3 - Login with invalid username and valid password" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:42:41 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC3 - Login with invalid username and valid password: Test Cases/TC-Login/TC3 - Login with invalid username and valid password
+
+30-10-2026T16:42:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:42:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:42:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:42:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:42:42 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:42:50 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:42:50 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), invalidUsername): Text 'Divo' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:42:58 - [MESSAGE][PASSED] - Text 'Divo' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:42:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:42:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:42:58 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:42:59 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:42:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/alert_Invalid credentials"), STOP_ON_FAILURE): Object 'Object Repository/page_login/alert_Invalid credentials' is visible
+
+30-10-2026T16:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/alert_Invalid credentials' is visible
+
+30-10-2026T16:43:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T16:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Login/TC4 - Login with empty username and valid password" time="20.238" classname="Test Cases/TC-Login/TC4 - Login with empty username and valid password" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:43:14 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC4 - Login with empty username and valid password: Test Cases/TC-Login/TC4 - Login with empty username and valid password
+
+30-10-2026T16:43:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:43:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:43:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:43:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:43:15 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:43:24 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:43:24 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), ""): Text '' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:43:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:43:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:43:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:43:33 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:43:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/alert_usernameRequired"), STOP_ON_FAILURE): Object 'Object Repository/page_login/alert_usernameRequired' is visible
+
+30-10-2026T16:43:34 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/alert_usernameRequired' is visible
+
+30-10-2026T16:43:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T16:43:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Login/TC5 - Login with valid username and empty password" time="20.149" classname="Test Cases/TC-Login/TC5 - Login with valid username and empty password" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:43:34 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC5 - Login with valid username and empty password: Test Cases/TC-Login/TC5 - Login with valid username and empty password
+
+30-10-2026T16:43:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:43:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:43:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:43:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:43:35 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:43:43 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:43:43 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:43:53 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:43:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), ""): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:43:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:43:53 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:43:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/alert_passwordRequired"), STOP_ON_FAILURE): Object 'Object Repository/page_login/alert_passwordRequired' is visible
+
+30-10-2026T16:43:54 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/alert_passwordRequired' is visible
+
+30-10-2026T16:43:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T16:43:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Login/TC6 - Login without input username and password" time="17.911" classname="Test Cases/TC-Login/TC6 - Login without input username and password" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:43:54 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC6 - Login without input username and password: Test Cases/TC-Login/TC6 - Login without input username and password
+
+30-10-2026T16:43:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:43:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:43:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:43:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:43:55 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:44:05 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:44:05 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), ""): Text '' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:44:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:44:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), ""): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:44:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:44:11 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:44:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/alert_usernameRequired")): Object 'Object Repository/page_login/alert_usernameRequired' is visible
+
+30-10-2026T16:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/alert_usernameRequired' is visible
+
+30-10-2026T16:44:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/alert_passwordRequired"), STOP_ON_FAILURE): Object 'Object Repository/page_login/alert_passwordRequired' is visible
+
+30-10-2026T16:44:12 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/alert_passwordRequired' is visible
+
+30-10-2026T16:44:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T16:44:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC-Login/TC7 - Log out after successfully logging in" time="68.061" classname="Test Cases/TC-Login/TC7 - Log out after successfully logging in" status="PASSED">
+         <system-out><![CDATA[30-10-2026T16:44:12 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC7 - Log out after successfully logging in: Test Cases/TC-Login/TC7 - Log out after successfully logging in
+
+30-10-2026T16:44:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-Login/TC1 - Login with valid username and valid password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T16:44:12 - [TEST_CASE][PASSED] - Test Cases/TC-Login/TC1 - Login with valid username and valid password: Test Cases/TC-Login/TC1 - Login with valid username and valid password
+
+30-10-2026T16:44:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-10-2026T16:44:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-10-2026T16:44:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-10-2026T16:44:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-10-2026T16:44:13 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:44:35 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+30-10-2026T16:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("page_login/input_Username"), validUsername): Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:44:38 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/page_login/input_Username'
+
+30-10-2026T16:44:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("page_login/input_Password"), validPassword): Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:44:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/page_login/input_Password'
+
+30-10-2026T16:44:39 - [TEST_STEP][PASSED] - click(findTestObject("page_login/button_Login")): Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/page_login/button_Login' is clicked on
+
+30-10-2026T16:44:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_dashboard/h6_Dashboard"), STOP_ON_FAILURE): Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T16:45:00 - [MESSAGE][PASSED] - Object 'Object Repository/page_dashboard/h6_Dashboard' is visible
+
+30-10-2026T16:45:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-Login/TC1 - Login with valid username and valid password' successfully
+
+30-10-2026T16:45:00 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/logo_profile")): Object: 'Object Repository/page_dashboard/logo_profile' is clicked on
+
+30-10-2026T16:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/logo_profile' is clicked on
+
+30-10-2026T16:45:03 - [TEST_STEP][PASSED] - click(findTestObject("page_dashboard/Logout")): Object: 'Object Repository/page_dashboard/Logout' is clicked on
+
+30-10-2026T16:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/page_dashboard/Logout' is clicked on
+
+30-10-2026T16:45:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("page_login/title_Login")): Object 'Object Repository/page_login/title_Login' is visible
+
+30-10-2026T16:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/page_login/title_Login' is visible
+
+30-10-2026T16:45:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-10-2026T16:45:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-10-2026T16:41:27 - [TEST_SUITE][PASSED] - TS - Login: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

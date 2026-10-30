@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Login,Chrome 156.0.8078.79,,,30-10-2026 16:41:27,30-10-2026 16:45:20,3m - 53.363s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC1 - Login with valid username and valid password,Chrome 156.0.8078.79,,,30-10-2026 16:41:27,30-10-2026 16:42:09,42.027s,PASSED
+"openBrowser("""")",Chrome 156.0.8078.79,,,30-10-2026 16:41:27,30-10-2026 16:41:30,2.286s,PASSED
+navigateToUrl(baseUrl),Chrome 156.0.8078.79,,,30-10-2026 16:41:30,30-10-2026 16:41:41,11.649s,PASSED
+"setText(findTestObject(""page_login/input_Username""), validUsername)",Chrome 156.0.8078.79,,,30-10-2026 16:41:41,30-10-2026 16:41:46,5.088s,PASSED
+"setEncryptedText(findTestObject(""page_login/input_Password""), validPassword)",Chrome 156.0.8078.79,,,30-10-2026 16:41:46,30-10-2026 16:41:47,0.396s,PASSED
+"click(findTestObject(""page_login/button_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:41:47,30-10-2026 16:41:59,11.792s,PASSED
+"verifyElementVisible(findTestObject(""page_dashboard/h6_Dashboard""), STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:41:59,30-10-2026 16:42:09,10.444s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC2 - Login with valid username and invalid password,Chrome 156.0.8078.79,,,30-10-2026 16:42:09,30-10-2026 16:42:41,32.247s,PASSED
+"openBrowser("""")",Chrome 156.0.8078.79,,,30-10-2026 16:42:09,30-10-2026 16:42:10,1.213s,PASSED
+navigateToUrl(baseUrl),Chrome 156.0.8078.79,,,30-10-2026 16:42:10,30-10-2026 16:42:20,9.244s,PASSED
+"setText(findTestObject(""page_login/input_Username""), validUsername)",Chrome 156.0.8078.79,,,30-10-2026 16:42:20,30-10-2026 16:42:24,4.402s,PASSED
+"setEncryptedText(findTestObject(""page_login/input_Password""), invalidPassword)",Chrome 156.0.8078.79,,,30-10-2026 16:42:24,30-10-2026 16:42:24,0.434s,PASSED
+"click(findTestObject(""page_login/button_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:42:24,30-10-2026 16:42:25,0.370s,PASSED
+"verifyElementVisible(findTestObject(""page_login/alert_Invalid credentials""), STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:42:25,30-10-2026 16:42:41,16.161s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:42:41,30-10-2026 16:42:41,0.236s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC3 - Login with invalid username and valid password,Chrome 156.0.8078.79,,,30-10-2026 16:42:41,30-10-2026 16:43:14,32.377s,PASSED
+"openBrowser("""")",Chrome 156.0.8078.79,,,30-10-2026 16:42:41,30-10-2026 16:42:42,0.823s,PASSED
+navigateToUrl(baseUrl),Chrome 156.0.8078.79,,,30-10-2026 16:42:42,30-10-2026 16:42:50,8.315s,PASSED
+"setText(findTestObject(""page_login/input_Username""), invalidUsername)",Chrome 156.0.8078.79,,,30-10-2026 16:42:50,30-10-2026 16:42:58,7.379s,PASSED
+"setEncryptedText(findTestObject(""page_login/input_Password""), validPassword)",Chrome 156.0.8078.79,,,30-10-2026 16:42:58,30-10-2026 16:42:58,0.340s,PASSED
+"click(findTestObject(""page_login/button_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:42:58,30-10-2026 16:42:59,0.331s,PASSED
+"verifyElementVisible(findTestObject(""page_login/alert_Invalid credentials""), STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:42:59,30-10-2026 16:43:13,14.882s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:43:13,30-10-2026 16:43:14,0.228s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC4 - Login with empty username and valid password,Chrome 156.0.8078.79,,,30-10-2026 16:43:14,30-10-2026 16:43:34,20.238s,PASSED
+"openBrowser("""")",Chrome 156.0.8078.79,,,30-10-2026 16:43:14,30-10-2026 16:43:15,0.807s,PASSED
+navigateToUrl(baseUrl),Chrome 156.0.8078.79,,,30-10-2026 16:43:15,30-10-2026 16:43:24,9.546s,PASSED
+"setText(findTestObject(""page_login/input_Username""), """")",Chrome 156.0.8078.79,,,30-10-2026 16:43:24,30-10-2026 16:43:33,8.483s,PASSED
+"setEncryptedText(findTestObject(""page_login/input_Password""), validPassword)",Chrome 156.0.8078.79,,,30-10-2026 16:43:33,30-10-2026 16:43:33,0.330s,PASSED
+"click(findTestObject(""page_login/button_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:43:33,30-10-2026 16:43:33,0.300s,PASSED
+"verifyElementVisible(findTestObject(""page_login/alert_usernameRequired""), STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:43:33,30-10-2026 16:43:34,0.478s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:43:34,30-10-2026 16:43:34,0.217s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC5 - Login with valid username and empty password,Chrome 156.0.8078.79,,,30-10-2026 16:43:34,30-10-2026 16:43:54,20.149s,PASSED
+"openBrowser("""")",Chrome 156.0.8078.79,,,30-10-2026 16:43:34,30-10-2026 16:43:35,0.791s,PASSED
+navigateToUrl(baseUrl),Chrome 156.0.8078.79,,,30-10-2026 16:43:35,30-10-2026 16:43:43,8.633s,PASSED
+"setText(findTestObject(""page_login/input_Username""), validUsername)",Chrome 156.0.8078.79,,,30-10-2026 16:43:43,30-10-2026 16:43:53,9.223s,PASSED
+"setEncryptedText(findTestObject(""page_login/input_Password""), """")",Chrome 156.0.8078.79,,,30-10-2026 16:43:53,30-10-2026 16:43:53,0.355s,PASSED
+"click(findTestObject(""page_login/button_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:43:53,30-10-2026 16:43:53,0.322s,PASSED
+"verifyElementVisible(findTestObject(""page_login/alert_passwordRequired""), STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:43:53,30-10-2026 16:43:54,0.505s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:43:54,30-10-2026 16:43:54,0.241s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC6 - Login without input username and password,Chrome 156.0.8078.79,,,30-10-2026 16:43:54,30-10-2026 16:44:12,17.911s,PASSED
+"openBrowser("""")",Chrome 156.0.8078.79,,,30-10-2026 16:43:54,30-10-2026 16:43:55,0.773s,PASSED
+navigateToUrl(baseUrl),Chrome 156.0.8078.79,,,30-10-2026 16:43:55,30-10-2026 16:44:05,10.005s,PASSED
+"setText(findTestObject(""page_login/input_Username""), """")",Chrome 156.0.8078.79,,,30-10-2026 16:44:05,30-10-2026 16:44:10,5.423s,PASSED
+"setEncryptedText(findTestObject(""page_login/input_Password""), """")",Chrome 156.0.8078.79,,,30-10-2026 16:44:10,30-10-2026 16:44:11,0.343s,PASSED
+"click(findTestObject(""page_login/button_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:44:11,30-10-2026 16:44:11,0.329s,PASSED
+"verifyElementVisible(findTestObject(""page_login/alert_usernameRequired""))",Chrome 156.0.8078.79,,,30-10-2026 16:44:11,30-10-2026 16:44:12,0.487s,PASSED
+"verifyElementVisible(findTestObject(""page_login/alert_passwordRequired""), STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:44:12,30-10-2026 16:44:12,0.260s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:44:12,30-10-2026 16:44:12,0.222s,PASSED
+,,,,,,,
+Test Cases/TC-Login/TC7 - Log out after successfully logging in,Chrome 156.0.8078.79,,,30-10-2026 16:44:12,30-10-2026 16:45:20,1m - 8.061s,PASSED
+"callTestCase(findTestCase(""TC-Login/TC1 - Login with valid username and valid password""), [:], STOP_ON_FAILURE)",Chrome 156.0.8078.79,,,30-10-2026 16:44:12,30-10-2026 16:45:00,47.751s,PASSED
+"click(findTestObject(""page_dashboard/logo_profile""))",Chrome 156.0.8078.79,,,30-10-2026 16:45:00,30-10-2026 16:45:03,3.648s,PASSED
+"click(findTestObject(""page_dashboard/Logout""))",Chrome 156.0.8078.79,,,30-10-2026 16:45:03,30-10-2026 16:45:16,12.491s,PASSED
+"verifyElementVisible(findTestObject(""page_login/title_Login""))",Chrome 156.0.8078.79,,,30-10-2026 16:45:16,30-10-2026 16:45:20,3.809s,PASSED
+closeBrowser(),Chrome 156.0.8078.79,,,30-10-2026 16:45:20,30-10-2026 16:45:20,0.291s,PASSED

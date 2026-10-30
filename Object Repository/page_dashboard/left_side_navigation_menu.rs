@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>left_side_navigation_menu</name>
+   <tag></tag>
+   <elementGuidId>52c12198-023a-4090-bd1b-e1c8a9878e40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/aside/nav/div[2]/ul</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.oxd-main-menu</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ul</value>
+      <webElementGuid>ba2ad4d3-9dbc-4369-9539-9cd96b0bf4d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-main-menu</value>
+      <webElementGuid>4aab6463-3be6-4581-a3f7-baa1d3470ae5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AdminPIMLeaveTimeRecruitmentMy InfoPerformanceDashboardDirectoryMaintenanceClaimBuzz</value>
+      <webElementGuid>8385fc1a-5991-4f4f-881e-0ab4d23b1423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-navigation&quot;]/aside[@class=&quot;oxd-sidepanel&quot;]/nav[@class=&quot;oxd-navbar-nav&quot;]/div[@class=&quot;oxd-sidepanel-body&quot;]/ul[@class=&quot;oxd-main-menu&quot;]</value>
+      <webElementGuid>325a38ee-ccd4-48fa-a7a8-7d55dc4d57b8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/aside/nav/div[2]/ul</value>
+      <webElementGuid>6ff3798e-60ce-49b5-90f8-26d112d017fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul</value>
+      <webElementGuid>e6424829-910a-409b-afd9-ecf751cdd568</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ul[(text() = 'AdminPIMLeaveTimeRecruitmentMy InfoPerformanceDashboardDirectoryMaintenanceClaimBuzz' or . = 'AdminPIMLeaveTimeRecruitmentMy InfoPerformanceDashboardDirectoryMaintenanceClaimBuzz')]</value>
+      <webElementGuid>6438fecb-d644-415b-acaa-7595f7c05347</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

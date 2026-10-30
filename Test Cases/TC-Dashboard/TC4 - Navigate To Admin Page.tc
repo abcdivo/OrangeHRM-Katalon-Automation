@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC4 - Navigate To Admin Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47e94a9b-1fff-472e-9ea3-009e0ea03bd5</testCaseGuid>
+</TestCaseEntity>
